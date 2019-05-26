@@ -280,7 +280,7 @@ FullTextSearch.prototype = {
 		// }
 
 		if (event.target.id === 'more') {
-
+			event.preventDefault();
 			this.hackFileActions(resultEntry);
 			// this.fileActions._showMenu(filename, this.hackFileActions(divEntry));
 			return true;
